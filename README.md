@@ -17,7 +17,9 @@ A pytorch implementation of the paper : Acoustic Scene Classification with Multi
 
 ## Acknowledgment
 Thanks for the base code provided by https://github.com/qiuqiangkong/dcase2019_task1/.
-```[1] Qiuqiang Kong, Yin Cao, Turab Iqbal, Yong Xu, Wenwu Wang, Mark D. Plumbley. Cross-task learning for audio tagging, sound event detection and spatial localization: DCASE 2019 baseline systems. arXiv preprint arXiv:1904.03476 (2019).
+
+```
+[1] Qiuqiang Kong, Yin Cao, Turab Iqbal, Yong Xu, Wenwu Wang, Mark D. Plumbley. Cross-task learning for audio tagging, sound event detection and spatial localization: DCASE 2019 baseline systems. arXiv preprint arXiv:1904.03476 (2019).
 ```
 
 ## Contact
