@@ -4,6 +4,7 @@ A pytorch implementation of the paper : Acoustic Scene Classification with Multi
 
 
 ## Citation
+If this code is helpful, please feel free to cite the following paper:
 ```
 @techreport{Wang2020_t1,
     Author = "Wang, Helin and Chong, Dading and Zou, Yuexian",
