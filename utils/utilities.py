@@ -196,7 +196,7 @@ def sparse_to_categorical(x, n_out):
     
 def get_sources(subtask):
     if subtask in ['a', 'c']:
-        return ['a']
+        return ['a', 'b', 'c', 's1', 's2', 's3']
     elif subtask == 'b':
         return ['a', 'b', 'c']
     else:
