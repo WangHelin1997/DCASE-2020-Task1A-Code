@@ -1,7 +1,8 @@
 # DCASE-2020-Task1A-Code
 A Pytorch implementation of the paper : Acoustic Scene Classification with Spectrogram Processing Strategies.
 
-
+## Notice
+Some testing error has occured. we will test the results and update them soon, which may be different from the original paper.
 
 ## Citation
 If this code is helpful, please feel free to cite the following papers:
