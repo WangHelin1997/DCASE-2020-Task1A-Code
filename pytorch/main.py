@@ -354,6 +354,11 @@ def inference_validation(args):
     
     if subtask in ['a', 'c']:
         evaluator.evaluate(data_type='validate', source='a', verbose=True)
+        evaluator.evaluate(data_type='validate', source='b', verbose=True)
+        evaluator.evaluate(data_type='validate', source='c', verbose=True)
+        evaluator.evaluate(data_type='validate', source='s1', verbose=True)
+        evaluator.evaluate(data_type='validate', source='s2', verbose=True)
+        evaluator.evaluate(data_type='validate', source='s3', verbose=True)
         
     elif subtask == 'b':
         evaluator.evaluate(data_type='validate', source='a', verbose=True)
