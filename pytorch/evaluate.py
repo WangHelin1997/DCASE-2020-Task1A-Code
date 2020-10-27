@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from sklearn import metrics
 import datetime
 import _pickle as cPickle
-import sed_eval
+#import sed_eval
 
 from utilities import get_filename, inverse_scale
 from pytorch_utils import forward
