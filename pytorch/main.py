@@ -115,10 +115,7 @@ def train(args):
     Model = eval(model_type)
     
     if subtask in ['a', 'b']:
-        if fixed=='True':
-            model = Model(in_domain_classes_num, activation='logsoftmax')
-        else :
-            model = Model(in_domain_classes_num, activation='logsoftmax')
+        model = Model(in_domain_classes_num, activation='logsoftmax')
         loss_func = nll_loss
         
     elif subtask == 'c':
