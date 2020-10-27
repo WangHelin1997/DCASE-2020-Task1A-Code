@@ -45,7 +45,7 @@ class Evaluator(object):
         
         Args: 
           data_type: 'train' | 'validate'
-          source: 'a' | 'b' | 'c'
+          source: 'a' | 'b' | 'c' | 's1' | 's2' | 's3'
           max_iteration: None | int, maximum iteration to run to speed up evaluation
           verbose: bool
         '''
@@ -129,7 +129,7 @@ class Evaluator(object):
         
         Args: 
           data_type: 'train' | 'validate'
-          source: 'a' | 'b' | 'c'
+          source: 'a' | 'b' | 'c' | 's1' | 's2' | 's3'
           max_iteration: None | int, maximum iteration to run to speed up evaluation
         '''
         mel_bins = config.mel_bins
@@ -197,14 +197,14 @@ class StatisticsContainer(object):
                 datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S'))
 
         # Statistics of device 'a', 'b' and 'c'
-        self.statistics_dict = {'a': [], 'b': [], 'c': []}
+        self.statistics_dict = {'a': [], 'b': [], 'c': [], 's1': [], 's2': [], 's3': []}
 
     def append_and_dump(self, iteration, source, statistics):
         '''Append statistics to container and dump the container. 
         
         Args:
           iteration: int
-          source: 'a' | 'b' | 'c', device
+          source: 'a' | 'b' | 'c' | 's1' | 's2' | 's3', device
           statistics: dict of statistics
         '''
         statistics['iteration'] = iteration
