@@ -40,3 +40,5 @@ python utils/features.py calculate_scalar --subtask='a' --data_type='development
 
 # Subtask A
 CUDA_VISIBLE_DEVICES=$GPU_ID python pytorch/main.py train --dataset_dir=$DATASET_DIR --workspace=$WORKSPACE --subtask='a' --data_type='development' --holdout_fold=1 --model_type=$MODEL_TYPE --batch_size=$BATCH_SIZE --ite_train=$ITE_TRAIN --ite_eva=$ITE_EVA --ite_store=$ITE_STORE --fixed=$FIXED --finetune=$FINETUNE --cuda
+
+CUDA_VISIBLE_DEVICES=$GPU_ID python pytorch/main.py inference_validation --dataset_dir=$DATASET_DIR --workspace=$WORKSPACE --subtask='a' --data_type='development' --holdout_fold=1 --model_type=$MODEL_TYPE --iteration=$ITE_TRAIN --batch_size=$BATCH_SIZE --cuda
