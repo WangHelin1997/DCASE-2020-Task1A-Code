@@ -28,21 +28,15 @@ SPSMR + SPSMF + SPSMT| 81.8%| 0.694| 453.1 MB
 ## Citation
 If this code is helpful, please feel free to cite the following papers:
 ```
-@techreport{Wang2020_t1,
-    Author = "Wang, Helin and Chong, Dading and Zou, Yuexian",
-    title = "Acoustic Scene Classification with Multiple Decision Schemes",
-    institution = "DCASE2020 Challenge",
+@inproceedings{Wang2020,
+    author = "Wang, Helin and Zou, Yuexian and Chong, DaDing",
+    title = "Acoustic Scene Classification with Spectrogram Processing Strategies",
+    booktitle = "Proceedings of the Detection and Classification of Acoustic Scenes and Events 2020 Workshop (DCASE2020)",
+    address = "Tokyo, Japan",
+    month = "November",
     year = "2020",
-    month = "June",
-    abstract = "This technical report describes the ADSPLAB team’s submission for Task1 of DCASE2020 challenge. Our acoustic scene classifi- cation (ASC) system is based on the convolutional neural networks (CNN). Multiple decision schemes are proposed in our system, in- cluding the decision schemes in multiple representations, multiple frequency bands, and multiple temporal frames. The final system is the fusion of models with multiple decision schemes and mod- els pre-trained on AudioSet. The experimental results show that our system could achieve the accuracy of 84.5 \%(official baseline: 54.1\%) and 92.1\% (official baseline: 87.3\%) on the officially provided fold 1 evaluation dataset of Task1A and Task1B, respectively."
-}
-@misc{wang2020acoustic,
-    title={Acoustic Scene Classification with Spectrogram Processing Strategies},
-    author={Helin Wang and Yuexian Zou and Dading Chong},
-    year={2020},
-    eprint={2007.03781},
-    archivePrefix={arXiv},
-    primaryClass={cs.SD}
+    pages = "210--214",
+    abstract = "Recently, convolutional neural networks (CNN) have achieved the state-of-the-art performance in acoustic scene classification (ASC) task. The audio data is often transformed into two-dimensional spectrogram representations, which are then fed to the neural networks. In this paper, we study the problem of efficiently taking advantage of different spectrogram representations through discriminative processing strategies. There are two main contributions. The first contribution is exploring the impact of the combination of multiple spectrogram representations at different stages, which provides a meaningful reference for the effective spectrogram fusion. The second contribution is that the processing strategies in multiple frequency bands and multiple temporal frames are proposed to make fully use of a single spectrogram representation. The proposed spectrogram processing strategies can be easily transferred to any network structures. The experiments are carried out on the DCASE 2020 Task1 datasets, and the results show that our method could achieve the accuracy of 81.8\% (official baseline: 54.1\%) and 92.1\% (official baseline: 87.3\%) on the officially provided fold 1 evaluation dataset of Task1A and Task1B, respectively."
 }
 ```
 
