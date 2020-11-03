@@ -7,7 +7,20 @@ Model | Accuracy |  Log loss | Model size
 -|-|-|-
 DCASE2020 Task 1 Baseline|70.6%|1.356|19.1 MB
 Log-Mel CNN|72.1%|0.879|18.9 MB
-
+Gamma CNN|76.1% |0.762 |18.9 MB
+MFCC CNN| 63.6%| 1.029| 18.9 MB
+SPSMR| 79.4%| 0.696| 75.5 MB
+Log-Mel CNN + SPSMF| 75.5%| 1.135| 94.4 MB
+CQT CNN + SPSMF| 74.5%| 1.185| 94.4 MB
+Gamma CNN + SPSMF| 78.8%| 1.169| 94.4 MB
+MFCC CNN + SPSMF| 60.9%| 1.801| 94.4 MB
+SPSMR + SPSMF| 80.9%| 0.737| 377.6 MB
+Log-Mel CNN + SPSMT| 74.5%| 0.987| 18.9 MB
+CQT CNN + SPSMT| 73.3%| 1.032| 18.9 MB
+Gamma CNN + SPSMT| 78.2%| 0.866| 18.9 MB
+MFCC CNN + SPSMT| 67.6%| 1.081| 18.9 MB
+SPSMR + SPSMT| 79.7%| 0.701| 75.5 MB
+SPSMR + SPSMF + SPSMT| 81.8%| 0.694| 453.1 MB
 
 
 ## Citation
