@@ -1,5 +1,5 @@
 # DCASE-2020-Task1A-Code
-A Pytorch implementation of the paper : Acoustic Scene Classification with Spectrogram Processing Strategies.
+A Pytorch implementation of the paper : ["Acoustic Scene Classification with Spectrogram Processing Strategies"](http://dcase.community/documents/workshop2020/proceedings/DCASE2020Workshop_Wang_58.pdf)
 
 ## Paper results
 
