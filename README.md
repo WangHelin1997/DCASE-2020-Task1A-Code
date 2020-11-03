@@ -3,6 +3,8 @@ A Pytorch implementation of the paper : Acoustic Scene Classification with Spect
 
 ## Paper results
 
+Note that the test results are obtained only by the device a for the DCASE2020 Task1A dev set.
+
 Model | Accuracy |  Log loss | Model size
 -|-|-|-
 DCASE2020 Task 1 Baseline|70.6%|1.356|19.1 MB
