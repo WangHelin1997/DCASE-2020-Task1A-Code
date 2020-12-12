@@ -3,7 +3,7 @@ from torch.autograd import Variable
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from nnAudio2 import Spectrogram as Spec
+from nnAudio import Spectrogram as Spec
 from torchlibrosa.augmentation import SpecAugmentation
 import config
 
